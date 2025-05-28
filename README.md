@@ -28,6 +28,11 @@ Shocial Media is a simple social networking platform that allows users to create
 - **Cookies** – To store JWT tokens securely on the client.
 - **Vercel** – Hosting and deployment platform for Next.js apps (optional).
 
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](./public/screenshot/social.png)
+
 
 
 ## ⚙️ How to Install and Run
