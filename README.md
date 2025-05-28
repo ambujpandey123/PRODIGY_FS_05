@@ -18,11 +18,15 @@ Shocial Media is a simple social networking platform that allows users to create
 
 ## 🛠️ Technologies Used
 
-- **Frontend**: Next.js / typescript 
-- **Backend**:  Node.js / Typesript
-- **Database**:  MongoDB
-- **Authentication**: Sessions or JWT
-- **Hosting**: Localhost / Vercel
+- **Next.js** – React framework for server-side rendering and static site generation.
+- **TypeScript** – Type-safe JavaScript for scalable development.
+- **Tailwind CSS** – Utility-first CSS framework for rapid UI development.
+- **MongoDB** – NoSQL database used to store user and post data.
+- **Mongoose** – ODM for MongoDB to handle schema and queries.
+- **JWT (JSON Web Token)** – Secure user authentication and route protection.
+- **NextAuth (optional)** – For easy authentication integration if used.
+- **Cookies** – To store JWT tokens securely on the client.
+- **Vercel** – Hosting and deployment platform for Next.js apps (optional).
 
 
 
