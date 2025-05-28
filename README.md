@@ -1,62 +1,63 @@
-# 🚀 Secure User Authentication – PRODIGY_FS_01
+# 🧑‍🤝‍🧑 Shocial Media - Social Media Website
 
-This is my  full-stack web development project completed as part of the **Full-Stack Web Development Internship** at **Prodigy InfoTech**.
+This project is part of the Prodigy InfoTech Full Stack Web Development Internship (**Track Code: FS**), fulfilling **Task 5: Social Media Website**.
 
-The project demonstrates a secure and scalable **User Authentication System** built using **Next.js**, **TypeScript**, **Tailwind CSS**, and **MongoDB**. It includes secure JWT-based login/signup, middleware for route protection, and user session management.
+## 📌 Project Description
 
----
+Shocial Media is a simple social networking platform that allows users to create an account, log in, post updates, and interact with other users through likes and comments. It simulates a basic social media experience using full-stack technologies.
 
-## 📌 Project Overview
+## 🚀 Key Features
 
-This application provides a modern and responsive interface for user authentication. It features:
-- 🔐 Secure login and registration using JWT tokens
-- 🧠 Password hashing with bcrypt
-- 🛡️ Middleware for protected routes
-- 📦 MongoDB integration with Mongoose
-- 🎨 Clean and mobile-friendly UI built with Tailwind CSS
+- 🔐 User Authentication (Login/Signup)
+- 📃 Post creation and deletion
+- ❤️ Like functionality
+- 💬 Comment system
+- 👤 User profile pages
+- 🧾 Feed displaying all user posts
+- 🧭 Protected routes and session handling
 
----
+## 🛠️ Technologies Used
 
-## 🌟 Key Features
+- **Frontend**: Next.js / typescript 
+- **Backend**:  Node.js / Typesript
+- **Database**:  MongoDB
+- **Authentication**: Sessions or JWT
+- **Hosting**: Localhost / Vercel
 
-- ✅ Signup and Login pages with form validation  
-- 🔑 JWT-based Authentication stored in cookies  
-- 🧩 Middleware for route protection  
-- 🧮 Secure password encryption with bcrypt  
-- ⚡ Protected Dashboard route  
-- 📱 Fully responsive design  
 
----
 
-## 🧰 Technology Stack
+## ⚙️ How to Install and Run (Next.js + TypeScript + Tailwind + MongoDB + JWT)
 
-| Frontend        | Backend        | Authentication | Database |
-|-----------------|----------------|----------------|----------|
-| Next.js (App Router) | Node.js + Express | JWT, bcryptjs | MongoDB + Mongoose |
-| TypeScript      | REST API       | Cookies        | Cloud/Local |
-| Tailwind CSS    |                |                |          |
+### ✅ Prerequisites
 
----
+Make sure you have the following installed:
 
-## 🛠️ How to Run the Project Locally
-
-### 🔧 Prerequisites
-
-- Node.js v18+
-- npm or yarn
-- MongoDB (local or cloud e.g., MongoDB Atlas)
-- `.env` file configured
+- Node.js (v16 or later)
+- MongoDB (local or Atlas cloud instance)
+- Git
 
 ---
 
-### 📦 Installation
+### 📥 1. Clone the Repository
 
 ```bash
-# Clone the repository
-git clone https://github.com/your-username/PRODIGY_FS_01.git
-
-# Navigate to the project directory
-cd PRODIGY_FS_01
-
-# Install dependencies
+git clone https://github.com/yourusername/PRODIGY_FS_05
+cd PRODIGY_FS_05
+```
+📦 2. Install Dependencies
+```bash
 npm install
+```
+🔐 3. Configure Environment Variables
+Create a .env.local file in the root directory and add the following:
+
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+
+💡 Replace your_mongodb_connection_string with your MongoDB URI and your_jwt_secret_key with a secure random string.
+
+🏁 4. Run the Development Server
+```bash
+npm run dev
+```
+
