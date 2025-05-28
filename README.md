@@ -30,7 +30,7 @@ Shocial Media is a simple social networking platform that allows users to create
 
 
 
-## ⚙️ How to Install and Run (Next.js + TypeScript + Tailwind + MongoDB + JWT)
+## ⚙️ How to Install and Run
 
 ### ✅ Prerequisites
 
